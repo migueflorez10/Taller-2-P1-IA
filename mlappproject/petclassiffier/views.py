@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .models import mlModels
 import os
 import numpy as np
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 from tensorflow import keras

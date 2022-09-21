@@ -13,7 +13,7 @@
     {% csrf_token %}
     <input type="file" name="sentFile" /><br /><br />
     <input type="submit" name="submit" value="Upload" /><br />
-    <img src="{% static 'test.jpg' %}" />
+    <img style ="width: 300px; height: 300px;" src="{% static 'test.jpg' %}" />
     <h2>{{caption}}</h2>
     </form>
     </body>
